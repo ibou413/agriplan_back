@@ -64,7 +64,7 @@ INSTALLED_APPS = [
 import firebase_admin
 from firebase_admin import credentials
 
-cred = credentials.Certificate("/home/your-username/path/to/your/agriplan-a2bb2-firebase-adminsdk-fbsvc-c9263de436.json")
+cred = credentials.Certificate("/home/Ibrahimaba98/agriplan-a2bb2-firebase-adminsdk-fbsvc-c9263de436.json")
 firebase_admin.initialize_app(cred)
 
 
